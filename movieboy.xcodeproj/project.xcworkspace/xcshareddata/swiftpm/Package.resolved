@@ -1,0 +1,24 @@
+{
+  "originHash" : "7368faf289133681415772fa261934de3aa3bfdb7a43125e454f8ffff670f3fe",
+  "pins" : [
+    {
+      "identity" : "activityindicatorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/ActivityIndicatorView",
+      "state" : {
+        "revision" : "36140867802ae4a1d2b11490bcbbefe058001d14",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX",
+      "state" : {
+        "revision" : "d9f903b214b9d56e3c1e4533b03359aee94acd5d",
+        "version" : "0.2.4"
+      }
+    }
+  ],
+  "version" : 3
+}
