@@ -1,29 +1,18 @@
 # Intro Course Project App of Bendeguz Timar for the iPraktikum
 
-To pass the intro course, you need to create your own unique iOS app (based on SwiftUI).
+## Project readme
 
-There are no requirements regarding the functions of your app, so you can get creative.
-However, we provide you with Non-Functional Requirements (NFR) that your app needs to fulfill.
+### Setup
 
-After each day of learning new Swift and SwiftUI concepts, these NFRs may change, or new NFRs get added.
+Clone the project into xcode. Dependency resolution happens automatically.
 
-## Submission procedure
+**API key**
 
-You get a **personal repository** on Gitlab to work on your app.
+Make sure to set your [the Movie Db](https://www.themoviedb.org/settings/api) API key in `movieboy/model/constants`
 
-Once you implemented a new feature into your app, you need to create a Merge Request (MR - Sometimes we will also reference these as "Pull Requests"(PR)) to merge your changes from the feature branch into your main branch.
+## Course material
 
-Your tutor will review your changes and either request changes or approves the MR.
-
-If your MR got approved, you also need to merge it!
-
-### Deadline: **17.10.2023 23:59**
-
-Until the deadline all of your PRs **need to be merged** and your final app **needs to fulfill** all of the requested NFRs!
-
----
-
-## Problem Statement (max. 500 words)
+### Problem Statement
 
 As a student, finding the correct medium to watch to waste my time with can be pretty challenging, especially when deciding between movies and series. Without a reliable source, I often end up just watching YouTube shorts.
 
@@ -37,9 +26,9 @@ The app should also give me a detailed description of the movie/show I choose, w
 
 In summary, as a student who is trying to balance my sanity and my studies, I need an iOS application that can help me recommend a suitable and legal way of escaping reality, and provide me with valuable insights into that chosen medium. With such an app, I can make informed decisions about spending my time, and ultimately, achieve nirvana.
 
-## Requirements
+### Requirements
 
-### Functional requirements
+#### Functional requirements
 Cognizant of my scholarly pursuits, I aspire to possess the capacity to...
 - See a list of the current popular movies
 - See a list of the current popular series
@@ -50,7 +39,7 @@ Cognizant of my scholarly pursuits, I aspire to possess the capacity to...
 - See a view of the currently played movies
 - See a view of shows that air in the next 7 days.
 
-### Non-functional requirements
+#### Non-functional requirements
 The application is, at this moment, expected to adhere to the subsequent non-functional prerequisites:
 - The app should have at least three custom SwiftUI views created
     - popular movies list page
@@ -79,15 +68,15 @@ The application is, at this moment, expected to adhere to the subsequent non-fun
     - The app is using the Blockletter
 - Use Apple's Logger throughout your app (introduced at WWDC20)
 
-## Analysis
+### Analysis
 
 ![Analysis Object Model diagram](analysisObjectModel.png "Analysis Object Model diagram")
 
-## System Design
+### System Design
 
 ![Subsystem Decomposition diagram](subsystemComponentDiagram.png "Subsystem Decomposition diagram")
 
-## Product Backlog
+### Product Backlog
 
 | Ticket      | Description |
 | ----------- | ----------- |
