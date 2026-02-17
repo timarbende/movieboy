@@ -1,5 +1,9 @@
 # Intro Course Project App of Bendeguz Timar for the iPraktikum
 
+<p align="center">
+<img src="teaser_image.png" width="400" hieght=800>
+</p>
+
 ## Project readme
 
 ### Setup
